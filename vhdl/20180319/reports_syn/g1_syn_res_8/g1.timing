@@ -1,0 +1,50 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : g1
+Version: N-2017.09-SP4
+Date   : Thu Mar 22 21:47:11 2018
+****************************************
+
+Operating Conditions: tt0p85v25c   Library: saed32rvt_tt0p85v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: res (input port clocked by clk)
+  Endpoint: s_local_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  g1                 ForQA                 saed32rvt_tt0p85v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.50       0.50 r
+  res (in)                                 0.01       0.51 r
+  U55/Y (INVX1_RVT)                        0.04       0.55 f
+  U41/Y (INVX1_RVT)                        0.05       0.60 r
+  U87/Y (AND2X1_RVT)                       0.06       0.66 r
+  U47/Y (MUX21X2_RVT)                      0.08       0.74 r
+  s_local_reg/D (DFFX1_RVT)                0.01       0.76 r
+  data arrival time                                   0.76
+
+  clock clk (rise edge)                    0.80       0.80
+  clock network delay (ideal)              0.00       0.80
+  s_local_reg/CLK (DFFX1_RVT)              0.00       0.80 r
+  library setup time                      -0.05       0.75
+  data required time                                  0.75
+  -----------------------------------------------------------
+  data required time                                  0.75
+  data arrival time                                  -0.76
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.01
+
+
+1

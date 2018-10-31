@@ -1,0 +1,4049 @@
+# do /home/mikilauda/ds-2018/sha256/scripts//compile_wave.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 10:43:16 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 10:43:16 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 10:43:16 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 10:43:16 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 10:43:16 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 10:43:16 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 10:43:16 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 10:43:16 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 10:43:16 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 10:43:16 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 10:43:16 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 10:43:16 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim sha256sim 
+# Start time: 10:43:16 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+do /home/mikilauda/ds-2018/sha256/scripts//compile_wave.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 10:48:29 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 10:48:29 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 10:48:29 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 10:48:29 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 10:48:29 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 10:48:29 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 10:48:29 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 10:48:29 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 10:48:29 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 10:48:29 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 10:48:29 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 10:48:29 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:48:30 on Jun 08,2018, Elapsed time: 0:05:14
+# Errors: 0, Warnings: 0
+# vsim sha256sim 
+# Start time: 10:48:30 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+do /home/mikilauda/ds-2018/sha256/scripts//compile_wave.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 10:59:39 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 10:59:39 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 10:59:39 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 10:59:39 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 10:59:39 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 10:59:39 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 10:59:39 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 10:59:39 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 10:59:39 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 10:59:40 on Jun 08,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 10:59:40 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 10:59:40 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:59:41 on Jun 08,2018, Elapsed time: 0:11:11
+# Errors: 0, Warnings: 0
+# vsim sha256sim 
+# Start time: 10:59:41 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+do /home/mikilauda/ds-2018/sha256/scripts//compile_wave.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:06:23 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 11:06:23 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:06:23 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 11:06:23 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:06:23 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 11:06:23 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:06:23 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 11:06:23 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:06:23 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 11:06:23 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:06:23 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 11:06:23 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:06:26 on Jun 08,2018, Elapsed time: 0:06:45
+# Errors: 0, Warnings: 0
+# vsim sha256sim 
+# Start time: 11:06:26 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+do /home/mikilauda/ds-2018/sha256/scripts//compile_wave.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:09:46 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 11:09:47 on Jun 08,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:09:47 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 11:09:47 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:09:47 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 11:09:47 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:09:47 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 11:09:47 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:09:47 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 11:09:47 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:09:47 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 11:09:47 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:09:49 on Jun 08,2018, Elapsed time: 0:03:23
+# Errors: 0, Warnings: 0
+# vsim sha256sim 
+# Start time: 11:09:49 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+do /home/mikilauda/ds-2018/sha256/scripts//compile_wave.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:10:15 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 11:10:15 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:10:15 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 11:10:15 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:10:15 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 11:10:15 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:10:15 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 11:10:15 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:10:15 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 11:10:15 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:10:15 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 11:10:15 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:10:16 on Jun 08,2018, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 0
+# vsim sha256sim 
+# Start time: 11:10:16 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+do /home/mikilauda/ds-2018/sha256/scripts//compile_wave.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:13:18 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 11:13:19 on Jun 08,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:13:19 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 11:13:19 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:13:19 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 11:13:19 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:13:19 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 11:13:19 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:13:19 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 11:13:19 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:13:19 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 11:13:19 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:13:20 on Jun 08,2018, Elapsed time: 0:03:04
+# Errors: 0, Warnings: 0
+# vsim sha256sim 
+# Start time: 11:13:20 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+do /home/mikilauda/ds-2018/sha256/scripts//compile_wave.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:15:01 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 11:15:01 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:15:01 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 11:15:01 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:15:01 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 11:15:01 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:15:01 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 11:15:01 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:15:01 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 11:15:01 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:15:01 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 11:15:01 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:15:02 on Jun 08,2018, Elapsed time: 0:01:42
+# Errors: 0, Warnings: 0
+# vsim sha256sim 
+# Start time: 11:15:02 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+do /home/mikilauda/ds-2018/sha256/scripts//compile_wave.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:20:25 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 11:20:26 on Jun 08,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:20:26 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 11:20:26 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:20:26 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 11:20:26 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:20:26 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 11:20:26 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:20:26 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 11:20:26 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:20:26 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 11:20:26 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:20:27 on Jun 08,2018, Elapsed time: 0:05:25
+# Errors: 0, Warnings: 0
+# vsim sha256sim 
+# Start time: 11:20:27 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+do /home/mikilauda/ds-2018/sha256/scripts//compile_wave.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:23:18 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 11:23:18 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:23:18 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 11:23:18 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:23:18 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 11:23:18 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:23:18 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 11:23:18 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:23:18 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 11:23:18 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:23:18 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 11:23:18 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:23:20 on Jun 08,2018, Elapsed time: 0:02:53
+# Errors: 0, Warnings: 0
+# vsim sha256sim 
+# Start time: 11:23:20 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+# ** Error: (vish-4014) No objects found matching '/sha256sim/sha256_block_0/compression_0/data_valid'.
+# Executing ONERROR command at macro /home/mikilauda/ds-2018/sha256/scripts/compile_wave.do line 25
+do /home/mikilauda/ds-2018/sha256/scripts//compile_sha.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:24:59 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 11:24:59 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:24:59 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 11:24:59 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:24:59 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 11:24:59 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:24:59 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 11:25:00 on Jun 08,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:25:00 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 11:25:00 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:25:00 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 11:25:00 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:25:01 on Jun 08,2018, Elapsed time: 0:01:41
+# Errors: 3, Warnings: 0
+# vsim sha256sim 
+# Start time: 11:25:01 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+do /home/mikilauda/ds-2018/sha256/scripts//compile_sha.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:38:53 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 11:38:53 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:38:53 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 11:38:53 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:38:53 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 11:38:53 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:38:53 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 11:38:53 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:38:53 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 11:38:53 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:38:53 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 11:38:54 on Jun 08,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 11:38:55 on Jun 08,2018, Elapsed time: 0:13:54
+# Errors: 0, Warnings: 0
+# vsim sha256sim 
+# Start time: 11:38:55 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+do /home/mikilauda/ds-2018/sha256/scripts//compile_sha.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:40:14 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 11:40:14 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:40:14 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 11:40:14 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:40:14 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 11:40:14 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:40:14 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 11:40:14 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:40:14 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 11:40:14 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 11:40:14 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 11:40:15 on Jun 08,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 11:40:15 on Jun 08,2018, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 0
+# vsim sha256sim 
+# Start time: 11:40:15 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+do /home/mikilauda/ds-2018/sha256/scripts//compile_wave.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:37:58 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 14:37:58 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:37:58 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 14:37:58 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:37:58 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 14:37:58 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:37:58 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 14:37:58 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:37:58 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 14:37:58 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:37:58 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 14:37:58 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:38:00 on Jun 08,2018, Elapsed time: 2:57:45
+# Errors: 0, Warnings: 0
+# vsim sha256sim 
+# Start time: 14:38:00 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+# ** Error: (vish-4014) No objects found matching '/sha256sim/sha256_block_0/compression_0/data_valid'.
+# Executing ONERROR command at macro /home/mikilauda/ds-2018/sha256/scripts/compile_wave.do line 25
+do /home/mikilauda/ds-2018/sha256/scripts//compile_sha.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:38:57 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 14:38:57 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:38:57 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 14:38:57 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:38:57 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 14:38:58 on Jun 08,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:38:58 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 14:38:58 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:38:58 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 14:38:58 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:38:58 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 14:38:58 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:38:59 on Jun 08,2018, Elapsed time: 0:00:59
+# Errors: 3, Warnings: 0
+# vsim sha256sim 
+# Start time: 14:38:59 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+do /home/mikilauda/ds-2018/sha256/scripts//compile_sha.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:44:16 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 14:44:16 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:44:16 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 14:44:16 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:44:16 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 14:44:16 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:44:16 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 14:44:16 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:44:16 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 14:44:16 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:44:16 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 14:44:16 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:44:17 on Jun 08,2018, Elapsed time: 0:05:18
+# Errors: 0, Warnings: 0
+# vsim sha256sim 
+# Start time: 14:44:17 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 213 ns.
+# Error in macro /home/mikilauda/ds-2018/sha256/scripts/compile_sha.do line 33
+# invalid command name "IsSystemVerilogDPIInDesign"
+#     while executing
+# "::tcl_unknown IsSystemVerilogDPIInDesign"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel 1 ::tcl_unknown $args"
+do /home/mikilauda/ds-2018/sha256/scripts//compile_sha.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:45:51 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 14:45:51 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:45:51 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 14:45:51 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:45:51 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 14:45:51 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:45:51 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 14:45:51 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:45:51 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 14:45:51 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:45:51 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 14:45:51 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:45:52 on Jun 08,2018, Elapsed time: 0:01:35
+# Errors: 1, Warnings: 0
+# vsim sha256sim 
+# Start time: 14:45:52 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+do /home/mikilauda/ds-2018/sha256/scripts//compile_wave.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:49:50 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 14:49:50 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:49:50 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 14:49:50 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:49:50 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 14:49:50 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:49:50 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 14:49:50 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:49:50 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 14:49:50 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:49:50 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 14:49:50 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:49:51 on Jun 08,2018, Elapsed time: 0:03:59
+# Errors: 0, Warnings: 0
+# vsim sha256sim 
+# Start time: 14:49:51 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+# ** Error: (vish-4014) No objects found matching '/sha256sim/sha256_block_0/compression_0/data_valid'.
+# Executing ONERROR command at macro /home/mikilauda/ds-2018/sha256/scripts/compile_wave.do line 25
+do /home/mikilauda/ds-2018/sha256/scripts//compile_sha.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:52:05 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 14:52:05 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:52:05 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 14:52:05 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:52:05 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 14:52:05 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:52:05 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 14:52:05 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:52:05 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 14:52:05 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:52:05 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 14:52:06 on Jun 08,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 14:52:07 on Jun 08,2018, Elapsed time: 0:02:16
+# Errors: 3, Warnings: 0
+# vsim sha256sim 
+# Start time: 14:52:07 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+do /home/mikilauda/ds-2018/sha256/scripts//compile_sha.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:54:54 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 14:54:54 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:54:54 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 14:54:54 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:54:54 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 14:54:54 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:54:54 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 14:54:54 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:54:54 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 14:54:54 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:54:54 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 14:54:54 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:54:55 on Jun 08,2018, Elapsed time: 0:02:48
+# Errors: 0, Warnings: 0
+# vsim sha256sim 
+# Start time: 14:54:55 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+do /home/mikilauda/ds-2018/sha256/scripts//compile_sha.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:55:13 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 14:55:14 on Jun 08,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:55:14 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 14:55:14 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:55:14 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 14:55:14 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:55:14 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 14:55:14 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:55:14 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 14:55:14 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:55:14 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 14:55:14 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:55:15 on Jun 08,2018, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 0
+# vsim sha256sim 
+# Start time: 14:55:15 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+do /home/mikilauda/ds-2018/sha256/scripts//compile_sha.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:56:46 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 14:56:46 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:56:46 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 14:56:46 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:56:46 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 14:56:46 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:56:46 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 14:56:46 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:56:46 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 14:56:46 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:56:46 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 14:56:46 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:56:48 on Jun 08,2018, Elapsed time: 0:01:33
+# Errors: 0, Warnings: 0
+# vsim sha256sim 
+# Start time: 14:56:48 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+do /home/mikilauda/ds-2018/sha256/scripts//compile_sha.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:57:31 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 14:57:31 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:57:31 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 14:57:31 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:57:31 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 14:57:31 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:57:31 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 14:57:31 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:57:31 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 14:57:31 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 14:57:31 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 14:57:31 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:57:32 on Jun 08,2018, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 0
+# vsim sha256sim 
+# Start time: 14:57:32 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+# WARNING: No extended dataflow license exists
+do /home/mikilauda/ds-2018/sha256/scripts//compile_sha.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:02:37 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 15:02:37 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:02:37 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 15:02:38 on Jun 08,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:02:38 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 15:02:38 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:02:38 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 15:02:38 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:02:38 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 15:02:38 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:02:38 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 15:02:38 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:02:39 on Jun 08,2018, Elapsed time: 0:05:07
+# Errors: 0, Warnings: 1
+# vsim sha256sim 
+# Start time: 15:02:39 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+# WARNING: No extended dataflow license exists
+do /home/mikilauda/ds-2018/sha256/scripts//compile_sha.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:05:58 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 15:05:58 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:05:58 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 15:05:58 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:05:58 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 15:05:58 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:05:58 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 15:05:58 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:05:58 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 15:05:58 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:05:58 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 15:05:58 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:05:59 on Jun 08,2018, Elapsed time: 0:03:20
+# Errors: 0, Warnings: 1
+# vsim sha256sim 
+# Start time: 15:05:59 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+# WARNING: No extended dataflow license exists
+do /home/mikilauda/ds-2018/sha256/scripts//compile_sha.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:09:11 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 15:09:11 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:09:11 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 15:09:11 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:09:11 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 15:09:11 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:09:12 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 15:09:12 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:09:12 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 15:09:12 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:09:12 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 15:09:12 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:09:13 on Jun 08,2018, Elapsed time: 0:03:14
+# Errors: 0, Warnings: 1
+# vsim sha256sim 
+# Start time: 15:09:13 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+# WARNING: No extended dataflow license exists
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/mikilauda/ds-2018/sha256/tmp/wave.do
+do /home/mikilauda/ds-2018/sha256/scripts//compile_wave.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:39:12 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 15:39:12 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:39:12 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 15:39:12 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:39:12 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 15:39:12 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:39:12 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 15:39:12 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:39:12 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 15:39:12 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:39:12 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 15:39:12 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:39:15 on Jun 08,2018, Elapsed time: 0:30:02
+# Errors: 0, Warnings: 1
+# vsim sha256sim 
+# Start time: 15:39:15 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+# WARNING: No extended dataflow license exists
+do /home/mikilauda/ds-2018/sha256/scripts//compile_wave.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:42:11 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 15:42:11 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:42:11 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 15:42:11 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:42:11 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 15:42:11 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:42:11 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 15:42:11 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:42:11 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 15:42:11 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:42:11 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 15:42:12 on Jun 08,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 15:42:14 on Jun 08,2018, Elapsed time: 0:02:59
+# Errors: 0, Warnings: 1
+# vsim sha256sim 
+# Start time: 15:42:14 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+# WARNING: No extended dataflow license exists
+do /home/mikilauda/ds-2018/sha256/scripts//compile_wave.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:42:53 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 15:42:53 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:42:53 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 15:42:53 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:42:54 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 15:42:54 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:42:54 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 15:42:54 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:42:54 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 15:42:54 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:42:54 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 15:42:54 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:42:56 on Jun 08,2018, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 1
+# vsim sha256sim 
+# Start time: 15:42:56 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+# WARNING: No extended dataflow license exists
+run 300 ns
+do /home/mikilauda/ds-2018/sha256/scripts//compile_wave.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:44:30 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 15:44:30 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:44:30 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 15:44:30 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:44:30 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 15:44:30 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:44:30 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 15:44:30 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:44:30 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 15:44:30 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:44:30 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 15:44:30 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:44:32 on Jun 08,2018, Elapsed time: 0:01:36
+# Errors: 0, Warnings: 1
+# vsim sha256sim 
+# Start time: 15:44:32 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+# WARNING: No extended dataflow license exists
+run 300 ns
+do /home/mikilauda/ds-2018/sha256/scripts//compile_wave.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:00:27 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 16:00:27 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:00:27 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 16:00:27 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:00:27 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 16:00:27 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:00:27 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 16:00:27 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:00:27 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 16:00:27 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:00:27 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 16:00:27 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:00:29 on Jun 08,2018, Elapsed time: 0:15:57
+# Errors: 0, Warnings: 1
+# vsim sha256sim 
+# Start time: 16:00:29 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+# WARNING: No extended dataflow license exists
+do /home/mikilauda/ds-2018/sha256/scripts//compile_wave.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:01:16 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 16:01:16 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:01:16 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 16:01:16 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:01:16 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 16:01:16 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:01:16 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 16:01:16 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:01:16 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 16:01:16 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:01:16 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 16:01:16 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:01:18 on Jun 08,2018, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 1
+# vsim sha256sim 
+# Start time: 16:01:18 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+# WARNING: No extended dataflow license exists
+do /home/mikilauda/ds-2018/sha256/scripts//compile_sha.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:03:48 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 16:03:48 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:03:48 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 16:03:48 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:03:48 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 16:03:48 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:03:48 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 16:03:48 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:03:48 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 16:03:48 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:03:48 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 16:03:48 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:03:51 on Jun 08,2018, Elapsed time: 0:02:33
+# Errors: 0, Warnings: 1
+# vsim sha256sim 
+# Start time: 16:03:51 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+# WARNING: No extended dataflow license exists
+do /home/mikilauda/ds-2018/sha256/scripts//compile_sha.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:05:10 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 16:05:10 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:05:10 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 16:05:10 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:05:10 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 16:05:10 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:05:10 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 16:05:10 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:05:10 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 16:05:10 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:05:10 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 16:05:10 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:05:13 on Jun 08,2018, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 1
+# vsim sha256sim 
+# Start time: 16:05:13 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+# WARNING: No extended dataflow license exists
+do /home/mikilauda/ds-2018/sha256/scripts//compile_wave.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:05:56 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 16:05:56 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:05:56 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 16:05:56 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:05:56 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 16:05:57 on Jun 08,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:05:57 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 16:05:57 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:05:57 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 16:05:57 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:05:57 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 16:05:57 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:05:59 on Jun 08,2018, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 1
+# vsim sha256sim 
+# Start time: 16:05:59 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+# WARNING: No extended dataflow license exists
+do /home/mikilauda/ds-2018/sha256/scripts//compile_wave.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 17:54:19 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 17:54:19 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 17:54:19 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 17:54:19 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 17:54:19 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 17:54:19 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 17:54:19 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 17:54:19 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 17:54:19 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 17:54:19 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 17:54:19 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 17:54:19 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:54:22 on Jun 08,2018, Elapsed time: 1:48:23
+# Errors: 0, Warnings: 1
+# vsim sha256sim 
+# Start time: 17:54:22 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+# WARNING: No extended dataflow license exists
+# ** Error: (vish-4014) No objects found matching '/sha256sim/s_valid_out'.
+# Executing ONERROR command at macro /home/mikilauda/ds-2018/sha256/scripts/compile_wave.do line 25
+do /home/mikilauda/ds-2018/sha256/scripts//compile_sha.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 17:54:44 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 17:54:44 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 17:54:44 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 17:54:44 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 17:54:44 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 17:54:44 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 17:54:44 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 17:54:45 on Jun 08,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 17:54:45 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 17:54:45 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 17:54:45 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 17:54:45 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:54:46 on Jun 08,2018, Elapsed time: 0:00:24
+# Errors: 3, Warnings: 1
+# vsim sha256sim 
+# Start time: 17:54:46 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+# WARNING: No extended dataflow license exists
+do /home/mikilauda/ds-2018/sha256/scripts//compile_wrap.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:00:01 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 18:00:01 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:00:01 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 18:00:01 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:00:01 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 18:00:01 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:00:01 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 18:00:01 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:00:01 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 18:00:01 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:00:01 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256_wrap.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# ** Error: (vcom-11) Could not find work.axi_pkg.
+# ** Error (suppressible): /home/mikilauda/ds-2018/sha256/vhdl/sha256_wrap.vhd(8): (vcom-1195) Cannot find expanded name "work.axi_pkg".
+# ** Error: /home/mikilauda/ds-2018/sha256/vhdl/sha256_wrap.vhd(8): Unknown expanded name.
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# ** Error: /home/mikilauda/ds-2018/sha256/vhdl/sha256_wrap.vhd(11): VHDL Compiler exiting
+# End time: 18:00:01 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: /home/mikilauda/opt/intelFPGA_pro/18.0/modelsim_ase/linuxaloem/vcom failed.
+# Error in macro /home/mikilauda/ds-2018/sha256/scripts/compile_wrap.do line 11
+# /home/mikilauda/opt/intelFPGA_pro/18.0/modelsim_ase/linuxaloem/vcom failed.
+#     while executing
+# "vcom $SRC_PATH/sha256_wrap.vhd"
+do /home/mikilauda/ds-2018/sha256/scripts//compile_wrap.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:00:35 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/axi_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package axi_pkg
+# End time: 18:00:35 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:00:35 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 18:00:35 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:00:35 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 18:00:35 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:00:35 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 18:00:35 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:00:35 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 18:00:35 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:00:35 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 18:00:35 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:00:35 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256_wrap.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package axi_pkg
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_wrap
+# -- Compiling architecture rtl of sha256_wrap
+# ** Error (suppressible): /home/mikilauda/ds-2018/sha256/vhdl/sha256_wrap.vhd(83): (vcom-1141) Identifier "sha256_block" does not identify a component declaration.
+# ** Error: /home/mikilauda/ds-2018/sha256/vhdl/sha256_wrap.vhd(336): VHDL Compiler exiting
+# End time: 18:00:35 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /home/mikilauda/opt/intelFPGA_pro/18.0/modelsim_ase/linuxaloem/vcom failed.
+# Error in macro /home/mikilauda/ds-2018/sha256/scripts/compile_wrap.do line 12
+# /home/mikilauda/opt/intelFPGA_pro/18.0/modelsim_ase/linuxaloem/vcom failed.
+#     while executing
+# "vcom $SRC_PATH/sha256_wrap.vhd"
+do /home/mikilauda/ds-2018/sha256/scripts//compile_wrap.do
+# /home/mikilauda/ds-2018/sha256/vhdl/
+# /home/mikilauda/ds-2018/sha256/tmp
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:18:05 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/axi_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package axi_pkg
+# End time: 18:18:05 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:18:05 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/packages/sha256_pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package sha256_pack
+# -- Compiling package body sha256_pack
+# -- Loading package sha256_pack
+# End time: 18:18:05 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:18:05 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/compression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity compression
+# -- Compiling architecture behav of compression
+# End time: 18:18:05 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:18:05 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/cu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity cu
+# -- Compiling architecture behav of cu
+# End time: 18:18:05 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:18:05 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/msched.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity msched
+# -- Compiling architecture behav of msched
+# End time: 18:18:05 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:18:05 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_block
+# -- Compiling architecture rtl of sha256_block
+# -- Loading entity compression
+# -- Loading entity msched
+# -- Loading entity cu
+# End time: 18:18:05 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:18:06 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256_wrap.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package axi_pkg
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256_wrap
+# -- Compiling architecture rtl of sha256_wrap
+# -- Loading entity sha256_block
+# End time: 18:18:06 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:18:06 on Jun 08,2018
+# vcom -reportprogress 300 /home/mikilauda/ds-2018/sha256/vhdl/sha256sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package sha256_pack
+# -- Compiling entity sha256sim
+# -- Compiling architecture behav of sha256sim
+# -- Loading entity sha256_block
+# End time: 18:18:06 on Jun 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:18:07 on Jun 08,2018, Elapsed time: 0:23:21
+# Errors: 10, Warnings: 1
+# vsim sha256sim 
+# Start time: 18:18:07 on Jun 08,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.sha256_pack(body)
+# Loading work.sha256sim(behav)
+# Loading work.sha256_block(rtl)
+# Loading work.compression(behav)
+# Loading work.msched(behav)
+# Loading work.cu(behav)
+# WARNING: No extended dataflow license exists
